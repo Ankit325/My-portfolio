@@ -1,0 +1,32 @@
+@font-face {
+    font-family: seasons1;
+    src: url("../Fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf");
+  }
+  
+@font-face {
+  font-family: rubikbold;
+  src: url("../Fonts/rubik/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: rubikmedium;
+  src: url("../Fonts/rubik/Rubik-Medium.ttf");
+}
+@font-face {
+  font-family: rubikregular;
+  src: url("../Fonts/rubik/Rubik-Regular.ttf");
+}
+
+
+.exp{
+   
+    font-family: rubikregular;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.conected {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 1rem;
+}

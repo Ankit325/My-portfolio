@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="../static/css/Experience.css">
+{% endblock %}
+{% block title %}
+    Experience
+{% endblock %}
+
+{% block main %}
+    <main>
+        <div class="container exp" >
+            <h1>Experience</h1>
+            <p>Currently, joined as Assistant manager at JIO Digital Life</p>
+
+            <div class="conected">
+                <h2>Product Manager</h2>
+                <h4 style="margin-bottom: 1px;">Conected</h4>
+                <p style="font-weight: 200; font-size: 16px; margin-bottom: 8px;">
+                    From Jan 2022 to Present</p>
+                    <h5 style="margin-bottom: 0;">Responsibilities:</h5>
+                    <ul  style="list-style: none; font-size: 18px; font-weight: 200;">
+                        <li>Developing and maintaining the product</li>
+                        <li>Working on the new features of the product</li>
+                        <li>Working on the bug fixing</li>
+                    </ul>
+            </div>
+            <div class="conected" style="margin-top: 1rem;">
+                <h2>Student Intern</h2>
+                <h4  style="margin-bottom: 1px;">SmartBridge</h4>
+                <p style="font-weight: 200; font-size: 16px; margin-bottom: 8px;">
+                    From June 2020 to July 2020</p>
+                    <h5 style="margin-bottom: 0;">Responsibilities:</h5>
+                    <ul  style="list-style: none; font-size: 18px; font-weight: 200;">
+                        <li>Developing the given project</li>
+                        <li>Launching it using IBM services</li>
+                        <li>Working on the bug fixing</li>
+            </div>
+        </div>
+        {% endblock %}

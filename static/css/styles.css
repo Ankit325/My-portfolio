@@ -1,0 +1,121 @@
+@font-face {
+    font-family: seasons1;
+    src: url("../Fonts/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf");
+  }
+  
+@font-face {
+  font-family: rubikbold;
+  src: url("../Fonts/rubik/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: rubikmedium;
+  src: url("../Fonts/rubik/Rubik-Medium.ttf");
+}
+@font-face {
+  font-family: rubikregular;
+  src: url("../Fonts/rubik/Rubik-Regular.ttf");
+}
+
+
+body{
+    font-family:sans-serif;
+}
+
+
+.set-back{
+  margin-top: 5rem;
+}
+
+.header1{
+  display: flex; 
+  margin-bottom: 2rem;
+  flex-direction: column;
+}
+
+.img-class{
+  height: 100px; 
+  width: 100px; 
+  border-radius: 50%; 
+  background-color:beige;
+}
+
+.name{
+  font-size: 28px;
+  margin-left: 2rem;
+  font-family: rubikmedium;
+
+}
+
+
+.navbar{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  font-family: rubikmedium;
+  font-size: 18px;
+  font-weight: 300;
+  color: #5e5e5e;
+  position: relative;
+  top: -3rem;
+  width: 98%;
+  margin-left: 8rem;
+  
+}
+.nav-ele{
+  margin-right: 40px;
+  text-decoration: none;
+  margin-top: 1rem;
+  color: #5e5e5e;
+  text-transform:uppercase;
+}
+
+.introduction{
+  background-color: #93ecec65;
+  font-family: Rubikregular;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.intro{
+  font-size:20px;
+  word-spacing: 12px;
+  
+}
+
+.skills{
+  padding: 2rem;
+}
+
+.skill-list{
+  list-style: none;
+  font-family: rubiklight;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  margin-right:2rem;
+}
+
+hr{
+  border: 3px solid #5e5e5e;
+  border-radius: 2rem;
+  width:70%;
+  margin-left: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 645px) {
+  /* .set-back{
+    margin-top: 0px;
+  } */
+.navbar{
+  top: 0rem;
+  margin-left: 0rem;
+}
+.header1{
+flex-direction: column;
+}
+}
+
